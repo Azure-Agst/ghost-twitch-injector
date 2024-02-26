@@ -1,0 +1,47 @@
+#twitch-embed {
+    width: fit-content;
+    margin: max(4.8vmin, 36px) auto 0 auto;
+    padding: 1em;
+
+    border: 3px #772CE8 solid;
+    background-color: #772CE810;
+    border-radius: 20px;
+    color: #fff;
+    
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    transition: 
+        max-height 1s ease, 
+        display 1s ease;
+}
+
+#twitch-embed h2 {
+    margin-top: 0;
+}
+
+#twitch-embed button {
+    color: #fff;
+    margin-top: 20px;
+    background-color: #333;
+    padding: 8px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 1s ease-out;
+}
+
+#twitch-embed button:hover {
+    background-color: #444;
+}
+
+#twitch-player {
+    width: min(80vw, 640px);
+    aspect-ratio: 16 / 9;
+}
+
+#twitch-info {
+    margin: 10px;
+}
